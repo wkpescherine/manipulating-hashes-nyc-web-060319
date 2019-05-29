@@ -13,7 +13,8 @@ def first_challenge
     }
   }
 
-  #your code herecontacts.each do |person, data|
+  #your code here
+contacts.each do |person, data|
   data.each do |attribute, value|
     puts "#{attribute}: #{value}"
   end
