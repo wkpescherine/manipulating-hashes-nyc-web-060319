@@ -12,7 +12,7 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-
+contacts.each do |person, data|
   #your code here
   data.each do |attribute, value|
     puts "#{attribute}: #{value}"
